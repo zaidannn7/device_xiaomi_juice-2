@@ -125,6 +125,8 @@ PRODUCT_PACKAGES += \
     TelecommResCommon \
     TelephonyResCommon \
     WifiResCommon
+    
+PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Power
 PRODUCT_PACKAGES += \
