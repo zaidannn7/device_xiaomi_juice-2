@@ -10,6 +10,10 @@ persist.vendor.btstack.enable.twsplus=true
 persist.vendor.btstack.enable.twsplussho=true
 vendor.bluetooth.soc=cherokee
 
+# Camera
+log.tag.CHIUSECASE=ERROR
+persist.vendor.camera.logInfoMask=false
+
 # Charger
 persist.vendor.quick.charge=1
 ro.charger.enable_suspend=true
