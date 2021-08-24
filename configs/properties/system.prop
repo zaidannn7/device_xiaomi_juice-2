@@ -8,6 +8,9 @@ persist.vendor.btstack.enable.twsplus=true
 persist.vendor.btstack.enable.twsplussho=true
 vendor.bluetooth.soc=cherokee
 
+# Blur
+ro.launcher.blur.appLaunch=false
+
 # Charger
 ro.charger.enable_suspend=true
 
