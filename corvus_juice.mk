@@ -22,6 +22,9 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+# Corvus Official
+RAVEN_LAIR=Official
+
 # Corvus Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.corvus.maintainer=Nathaniel_Quitua
