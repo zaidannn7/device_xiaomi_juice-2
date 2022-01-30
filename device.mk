@@ -65,7 +65,8 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     Snap
-
+    GrapheneCamera
+    
 # Display
 PRODUCT_PACKAGES += \
     libdisplayconfig \
@@ -182,6 +183,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.0 \
     vendor.qti.hardware.perf@2.1 \
     vendor.qti.hardware.perf@2.2
+
+# Properties
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    debug.hwui.use_hint_manager=true \
+    debug.hwui.target_cpu_time_percent=30
 
 # Radio
 PRODUCT_PACKAGES += \
