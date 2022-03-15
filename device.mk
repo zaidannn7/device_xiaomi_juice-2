@@ -108,25 +108,22 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
-
-PRODUCT_PACKAGES += \
-    AospFrameworkResOverlay \
-    AospWifiResOverlay \
-    CarrierConfigResCommon \
-    CellBroadcastReceiverResCommon \
-    DialerOverlayJuice \
-    FrameworksResCommon \
-    FrameworksResOverlayJuice \
-    FrameworksResTarget \
-    NotchBarKiller \
-    SettingsOverlayJuice \
-    SystemUIOverlayJuice \
-    SystemUIResCommon \
-    TelecommResCommon \
-    TelephonyResCommon \
-    WifiResCommon
     
 PRODUCT_ENFORCE_RRO_TARGETS := *
+
+PRODUCT_PACKAGES += \
+   CarrierConfigOverlayJuice \
+   CellBroadcastReceiverOverlayJuice \
+   DialerOverlayJuice \
+   FrameworksResOverlayJuice \
+   NotchBarKillerOverlayJuice \
+   SettingsOverlayJuice \
+   SettingsProviderOverlayJuice \
+   SystemUIOverlayJuice \
+   TelecommOverlayJuice \
+   TelephonyOverlayJuice \
+   TetheringConfigOverlayJuice \
+   WifiOverlayJuice
 
 # Power
 PRODUCT_PACKAGES += \
