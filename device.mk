@@ -97,6 +97,23 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+PRODUCT_PACKAGES += \
+    AospFrameworkResOverlay \
+    AospWifiResOverlay \
+    CarrierConfigResCommon \
+    CellBroadcastReceiverResCommon \
+    DialerOverlayJuice \
+    FrameworksResCommon \
+    FrameworksResOverlayJuice \
+    FrameworksResTarget \
+    NotchBarKiller \
+    SettingsOverlayJuice \
+    SystemUIOverlayJuice \
+    SystemUIResCommon \
+    TelecommResCommon \
+    TelephonyResCommon \
+    WifiResCommon
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service.juice \
@@ -145,16 +162,3 @@ PRODUCT_PACKAGES += \
 # Vendor Overlay
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/vendor-overlay/,$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION))
-
-PRODUCT_PACKAGES += \
-    AospFrameworkResOverlay \
-    AospWifiResOverlay \
-    CarrierConfigResCommon \
-    CellBroadcastReceiverResCommon \
-    FrameworksResCommon \
-    FrameworksResTarget \
-    NotchBarKiller \
-    SystemUIResCommon \
-    TelecommResCommon \
-    TelephonyResCommon \
-    WifiResCommon
