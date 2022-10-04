@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_juice.mk
+    $(LOCAL_DIR)/lighthouse_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    potato_juice-user \
-    potato_juice-userdebug \
-    potato_juice-eng
+    lighthouse_juice-user \
+    lighthouse_juice-userdebug \
+    lighthouse_juice-eng
