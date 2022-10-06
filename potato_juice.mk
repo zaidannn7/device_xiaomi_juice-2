@@ -8,14 +8,12 @@
 $(call inherit-product, device/xiaomi/juice/device.mk)
 
 # Inherit some common potato stuff.
-$(call inherit-product, vendor/lighthouse/config/common.mk)
+$(call inherit-product, vendor/potato/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
-TARGET_DEVICE=juice
-
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lighthouse_juice
+PRODUCT_NAME := potato_juice
 PRODUCT_DEVICE := juice
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Juice
