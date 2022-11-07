@@ -11,6 +11,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     Camera2 \
     Chrome \
     Chrome-Stub \
+    ConfigUpdater \
     ConnMO \
     ConnMetrics \
     DCMO \
@@ -43,6 +44,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     SoundAmplifierPrebuilt \
     SprintDM \
     SprintHM \
+    Traceur \
     Tycho \
     USCCDM \
     Videos \
